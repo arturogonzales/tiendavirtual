@@ -1,0 +1,11 @@
+@startuml
+admin -->(login)
+admin -->(gestionar usuarios)
+admin -->(gestionar productos)
+visitante -->(visualizar productos)
+visitante -->(gestionar productos)
+admin -->(registrarse)
+cliente -->(realizar pedidos)
+cliente -->(gestionar)
+cliente -->(login)
+@enduml
